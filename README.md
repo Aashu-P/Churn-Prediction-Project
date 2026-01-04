@@ -74,24 +74,6 @@ Chosen due to stronger recall on churn customers and better handling of complex 
 
 ---
 
-## Project Structure
-├── data/
-│ └── raw_churn_data.csv
-├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Feature_Engineering.ipynb
-│ ├── 03_Modeling.ipynb
-│ └── 04_Demo.ipynb
-├── models/
-│ ├── preprocessor.pkl
-│ ├── xgb_model.pkl
-│ └── threshold.pkl
-├── app.py
-├── requirements.txt
-└── README.md
-
----
-
 ## Live Inference Demo
 
 The Streamlit app allows users to:
